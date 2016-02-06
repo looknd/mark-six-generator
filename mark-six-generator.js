@@ -10,7 +10,7 @@ function MarkSixGenerator()
             // Get a random integer from 1 to 47.
             var num = Math.floor(Math.random() * 47) + 1;
             // Skip for duplicated number.
-            if (this.result.length > 0 && this.result.indexOf(num) >= 0) {
+            if (this.result.indexOf(num) >= 0) {
                 continue;
             }
             this.result.push(num);
